@@ -88,7 +88,7 @@ public class CreateRoomParams {
      * The server will clobber the following keys: creator.
      * Future versions of the specification may allow the server to clobber other keys.
      */
-    public Object creation_content;
+    public Serializable creation_content;
 
     /**
      * A list of state events to set in the new room.
